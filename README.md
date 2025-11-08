@@ -15,7 +15,6 @@ Its primary goal is to assist children with speech therapy through visual intera
 ## 👩‍💻 Team and Contributors
 
 **Created by:**
-- Ramón Alejandro Briseño Martínez  
 - Hannah Carolina Fabian Valensia  
 - Paola Ortega Bravo  
 - Martín García Torres  
