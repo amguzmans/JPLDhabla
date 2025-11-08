@@ -172,6 +172,6 @@ async function generateSpeech(outputFolder = "./audios") {
 
 
 app.listen(PORT, () => {
-    generateSpeech();
+    //generateSpeech();
     console.log(`<|Berkeley listening port ${PORT}|>`); // Log server start and port information
 });

@@ -12,7 +12,7 @@
  * Full license text: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
  */
 
- 
+
  /* Overlay box */
 .overlay-container {
   background: var(--white-color);
@@ -51,6 +51,22 @@
   min-width: 80px;
 }
 
+ 
+ .syllable {
+  font-family: var(--font-h1);
+  font-size: clamp(1.2rem, 5vw, calc(var(--h2-size) * 2.2));
+  color: var(--dark-color);
+  font-weight: var(--h2-weight);
+  line-height: 1.6;
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.syllable.active {
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
 /* Extra tweaks for very small screens */
 @media (max-width: 480px) {
   .overlay-container {
@@ -67,3 +83,4 @@
     flex: 0 1 100px;
   }
 }
+
