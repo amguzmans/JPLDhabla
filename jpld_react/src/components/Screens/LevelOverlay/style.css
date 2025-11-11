@@ -67,6 +67,15 @@
   font-weight: bold;
 }
 
+.btn-overlay.listening {
+  background-color: #28a745 !important; /* Green */
+  border-color: #28a745 !important;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  transform: scale(1.1);
+}
+
+
+
 /* Extra tweaks for very small screens */
 @media (max-width: 480px) {
   .overlay-container {
