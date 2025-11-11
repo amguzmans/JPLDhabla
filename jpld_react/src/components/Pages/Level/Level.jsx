@@ -69,7 +69,6 @@ export const Level = () => {
 
   const handleNextScene = () => {
     setShowPopup(false);
-    // Aquí puedes mover a la siguiente escena si ya tienes el método
     console.log("Pasando a la siguiente escena...");
   };
   const [showConfig, setShowConfig] = useState(false);

@@ -58,31 +58,31 @@ export const LevelOverlay = ({ text, onResult }) => {
   };
 
   const stopListening = () => {
-  SpeechRecognition.stopListening();
+    SpeechRecognition.stopListening();
 
-  const spoken = transcript.trim();
-  console.log("said...  ", spoken);
-  setSessionTranscript(spoken);
+    const spoken = transcript.trim();
+    console.log("said...  ", spoken);
+    setSessionTranscript(spoken);
 
-  const normalize = (str) =>
-    str
-      .normalize("NFD")
-      .replace(/[\u0300-\u036f]/g, "")
-      .replace(/[^\w\s]|_/g, "")
-      .replace(/\s+/g, " ")
-      .trim()
-      .toLowerCase();
+    const normalize = (str) =>
+      str
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/[^\w\s]|_/g, "")
+        .replace(/\s+/g, " ")
+        .trim()
+        .toLowerCase();
 
-  const expected = normalize(text);
-  const said = normalize(spoken);
-  console.log("expected phrase: ", expected);
+    const expected = normalize(text);
+    const said = normalize(spoken);
+    console.log("expected phrase: ", expected);
 
- const correct = said && expected && said.includes(expected);
-  if (onResult) onResult(correct);
+    const correct = said && expected && said.includes(expected);
+    if (onResult) onResult(correct);
 
-  if (correct) console.log(" CORRECTO");
-  else console.log(" INCORRECTO");
-};
+    if (correct) console.log(" CORRECTO");
+    else console.log(" INCORRECTO");
+  };
 
   // --- 🔁 Repeat base sound  ---
   const handleRepeatClick = () => {
@@ -153,9 +153,9 @@ export const LevelOverlay = ({ text, onResult }) => {
   const syllables = text.split("-").map((s) => s.trim()).filter(Boolean);
 
   return (
-    
+
     <div className="overlay-container">
-      
+
       <p className="overlay-text">
         {syllables.map((syllable, i) => (
           <span
@@ -168,8 +168,17 @@ export const LevelOverlay = ({ text, onResult }) => {
         ))}
       </p>
       <div className="overlay-buttons">
-        <IconButton icon={Microphone} onClick={startListening} className="btn-overlay" />
-        <IconButton icon={Microphone} onClick={stopListening} className="btn-overlay" />
+        <IconButton
+          icon={Microphone}
+          onClick={() => {
+            if (listening) {
+              stopListening();
+            } else {
+              startListening();
+            }
+          }}
+          className={`btn-overlay ${listening ? "listening" : ""}`}
+        />
         <IconButton
           icon={Repeat}
           onClick={handleRepeatSound}
@@ -180,10 +189,10 @@ export const LevelOverlay = ({ text, onResult }) => {
           onClick={handleNextClick}
           className="btn-overlay"
         />
-        
+
       </div>
-      
-        
+
+
     </div>
   );
 };
