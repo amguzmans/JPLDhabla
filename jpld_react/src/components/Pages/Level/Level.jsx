@@ -136,8 +136,8 @@ export const Level = () => {
       ["PE-LO-TA", "CO-LUM-PIO", "RE-SBA-LA-DI-LLA"],
       ["LAN-ZA LA PE-LO-TA.", "ME SU-BO AL CO-LUM-PIO.", "BA-JA POR LA RE-SBA-LA-DI-LLA."],
       [
-        "JU-GA-MOS CON LA PE-LO-TA Y CO-RRE-MOS TO-DOS JUNTOS.",
-        "EL NI-ÑO SU-BE AL CO-LUM-PIO Y SE BA-LAN-CEA MUY A-LTO.",
+        "JU-GA-MOS CON LA PE-LO-TA Y CO-RRE-MOS TO-DOS JUN-TOS.",
+        "EL NI-ÑO SU-BE AL CO-LUM-PIO Y SE BA-LAN-CE-A MUY AL-TO.",
         "LA NI-ÑA BA-JA POR LA RE-SBA-LA-DI-LLA Y RÍ-E CON A-LE-GRÍ-A.",
       ],
     ],
