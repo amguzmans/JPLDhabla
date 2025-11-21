@@ -184,7 +184,7 @@ If you wish to collaborate, adapt this project for non-commercial educational pu
 
 If you use this project in research, please cite it as:
 
-> Briseño Martínez, R. A., Fabian Valensia, H. C., Ortega Bravo, P., García Torres, M., Jimenez Zepeda, C., Arreola Munguía, S., Velasco Gómez Llanos, D., González Gómez, A., López Gómez, R., Dado Delgadillo, N. M., Pérez Chacón, A. M., Avila Navarro, K., & Guzman Solís, A. M. (2025). *Speech Helper App for Kids*. Licensed under CC BY-NC-SA 4.0.
+> Fabian Valensia, H. C., Ortega Bravo, P., García Torres, M., Jimenez Zepeda, C., Arreola Munguía, S., Velasco Gómez Llanos, D., González Gómez, A., López Gómez, R., Dado Delgadillo, N. M., Pérez Chacón, A. M., Avila Navarro, K., & Guzman Solís, A. M. (2025). *Speech Helper App for Kids*. Licensed under CC BY-NC-SA 4.0.
 
 ---
 
