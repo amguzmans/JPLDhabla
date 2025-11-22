@@ -1,9 +1,16 @@
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
 
-© 2025 Hannah Carolina Fabian Valensia, Paola Ortega Bravo, Martín García Torres, 
-Carlos Jimenez Zepeda, Santiago Arreola Munguía, Demián Velasco Gómez Llanos, 
-Andrés González Gómez, Rodrigo López Gómez, Nahui Metztli Dado Delgadillo, 
-Ana Mariem Pérez Chacón, Karla Avila Navarro, Ana María Guzman Solís
+© 2025  
+Original Idea Authors: **Arturo Jafet Rodríguez Muñoz, Ramón Alejandro Briseño Martínez**  
+
+Original Mockup & Visual Design Authors:  
+**Hannah Carolina Fabian Valensia, Paola Ortega Bravo, Martín García Torres,  
+Carlos Jimenez Zepeda, Santiago Arreola Munguía, Demián Velasco Gómez Llanos,  
+Andrés González Gómez**
+
+Original Code Authors:  
+**Rodrigo López Gómez, Nahui Metztli Dado Delgadillo, Ana Mariem Pérez Chacón,  
+Karla Avila Navarro, Ana María Guzman Solís**
 
 ================================================================================
 SUMMARY OF LICENSE TERMS
@@ -11,34 +18,32 @@ SUMMARY OF LICENSE TERMS
 
 You are free to:
 
-- Share — copy and redistribute the material in any medium or format.
-- Adapt — remix, transform, and build upon the material.
+- **Share** — copy and redistribute the material in any medium or format  
+- **Adapt** — remix, transform, and build upon the material  
 
 Under the following terms:
 
-1. Attribution — You must give appropriate credit to all contributors, provide a link to the license, 
-   and indicate if changes were made. You may do so in any reasonable manner, but not in any way 
-   that suggests the contributors endorse you or your use.
+1. **Attribution** — You must credit *all* contributors listed above, including  
+   idea authors, mockup designers, and code authors.  
+2. **NonCommercial** — You may not use the material for commercial purposes.  
+3. **ShareAlike** — Any derivative work must be licensed under the same terms.  
 
-2. NonCommercial — You may not use the material for commercial purposes.
+No additional restrictions may be applied.
 
-3. ShareAlike — If you remix, transform, or build upon the material, you must distribute your 
-   contributions under the same license as the original.
-
-No additional restrictions — You may not apply legal terms or technological measures that legally 
-restrict others from doing anything the license permits.
-
-For the full legal text, visit:
+Full license text:  
 https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
-
 
 ================================================================================
 CREDITS AND ATTRIBUTIONS
 ================================================================================
 
-Project: Speech Helper App for Kids  
-Created in 2025 as a collaborative effort by:
+This project includes contributions from:
 
+**Original Concept / Idea:**  
+- Arturo Jafet Rodríguez Muñoz  
+- Ramón Alejandro Briseño Martínez  
+
+**Original Mockup / Visual Design:**  
 - Hannah Carolina Fabian Valensia  
 - Paola Ortega Bravo  
 - Martín García Torres  
@@ -46,50 +51,40 @@ Created in 2025 as a collaborative effort by:
 - Santiago Arreola Munguía  
 - Demián Velasco Gómez Llanos  
 - Andrés González Gómez  
-- Rodrigo López Gómez    
+
+**Original Code / Implementation:**  
+- Rodrigo López Gómez  
 - Nahui Metztli Dado Delgadillo  
 - Ana Mariem Pérez Chacón  
 - Karla Avila Navarro  
 - Ana María Guzman Solís  
 
-All contributors must be acknowledged whenever this project, or any of its files, are used,
-modified, or displayed in any form.
+Any use of the project must acknowledge each group appropriately.
 
 --------------------------------------------------------------------------------
-External Assets and Open-Source Licenses
+External Resources and Open-Source Licenses
 --------------------------------------------------------------------------------
 
-This project incorporates third-party resources under their respective open-source licenses:
+### SVG Graphics
+Some icons and illustrations are sourced from **Vecteezy**  
+Attribution required: *“SVG icons by Vecteezy.com”*
 
-### 1. SVG Graphics
-- Some SVG icons and illustrations sourced from **Vecteezy**  
-  Website: https://www.vecteezy.com  
-  License: Free for personal and commercial use with attribution  
-  Attribution required: “SVG icons by Vecteezy.com”
+### Open-Source Libraries
+- **React** — MIT License  
+- **Vosk Speech Recognition Toolkit** — Apache License 2.0  
 
-### 2. Open Source Libraries and Frameworks
-
-- **React**  
-  License: MIT License  
-  Copyright © Meta Platforms, Inc. and contributors  
-  License text: https://opensource.org/licenses/MIT
-
-- **Vosk Speech Recognition Toolkit**  
-  License: Apache License 2.0  
-  Copyright © Alpha Cephei Inc.  
-  License text: https://www.apache.org/licenses/LICENSE-2.0
-
-Other third-party libraries or dependencies are used under their respective open-source licenses 
-as distributed via npm or other official sources.
+All external libraries retain their original licenses.
 
 --------------------------------------------------------------------------------
 NOTICE
 --------------------------------------------------------------------------------
 
-This project and all its original code, design, and assets are provided under the 
-Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.  
-Any redistribution, modification, or adaptation must retain this notice, the list 
-of contributors, and proper attribution to all external sources.
+This project is licensed under CC BY-NC-SA 4.0.  
+Redistribution or adaptation requires attribution to:
 
-Commercial use, resale, or distribution without explicit written permission from 
-the contributors is strictly prohibited.
+- Idea authors  
+- Mockup designers  
+- Code authors  
+
+Commercial use is prohibited without express written permission from **all** code authors.
+
