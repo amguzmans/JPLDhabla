@@ -127,9 +127,9 @@ For academic, research, or educational collaboration of the original code:
 
 ## 💖 Citation Example
 
-> Rodríguez Muñoz, A. J., Briseño Martínez, R. A., Fabian Valensia, H. C., Ortega Bravo, P.,  
+> Briseño Martínez, R. A., Rodríguez Muñoz, A. J., López Gómez, R., Dado Delgadillo, N. M., Pérez Chacón, A. M.,  
+> Avila Navarro, K., & Guzman Solís, A. M., Fabian Valensia, H. C., Ortega Bravo, P.,  
 > García Torres, M., Jimenez Zepeda, C., Arreola Munguía, S., Velasco Gómez Llanos, D.,  
-> González Gómez, A., López Gómez, R., Dado Delgadillo, N. M., Pérez Chacón, A. M.,  
-> Avila Navarro, K., & Guzman Solís, A. M. (2025). *Speech Helper App for Kids*.  
+> González Gómez, A. (2025). *Speech Helper App for Kids*.  
 > Licensed under CC BY-NC-SA 4.0.
 
