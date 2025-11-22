@@ -1,92 +1,32 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
 # 🗣️ Speech Helper App for Kids
 
-**An interactive educational application designed to support children with speech and pronunciation challenges.**  
-The project combines fun, engagement, and accessibility using open technologies such as **React** and **Vosk**.
+**An interactive educational application designed to support children with speech and pronunciation development.**  
+The project integrates accessibility, playful interaction, and real-time feedback using technologies such as **React** and **Vosk**.
 
 ---
 
 ## 🌟 Overview
 
-**Speech Helper App for Kids** is a collaborative project developed in 2025 by a multidisciplinary team of developers and educators.  
-Its primary goal is to assist children with speech therapy through visual interaction, real-time feedback, and friendly gamified exercises.
+**Speech Helper App for Kids** is a collaborative non-commercial project first conceived in 2025.  
+Its purpose is to provide children with a supportive environment to practice pronunciation through visual exercises, animations, and offline speech recognition.
 
 ---
 
-## 👩‍💻 Team and Contributors
+## 👥 Intellectual Origin of the Project
 
-**Created by:**
+The **original idea and conceptual foundation** of this project were created by:
+
+- **Arturo Jafet Rodríguez Muñoz**  
+- **Ramón Alejandro Briseño Martínez**
+
+Their conceptual contribution is acknowledged throughout the project and its usage.
+
+---
+
+## 🎨 Original Mockup & Visual Design Team
+
+The **original mockup, layout, and visual design concept** for the application were developed by:
+
 - Hannah Carolina Fabian Valensia  
 - Paola Ortega Bravo  
 - Martín García Torres  
@@ -94,101 +34,100 @@ Its primary goal is to assist children with speech therapy through visual intera
 - Santiago Arreola Munguía  
 - Demián Velasco Gómez Llanos  
 - Andrés González Gómez  
-- Rodrigo López Gómez  
-- Nahui Metztli Dado Delgadillo  
-- Ana Mariem Pérez Chacón  
-- Karla Avila Navarro  
-- Ana María Guzman Solís  
 
-**Acknowledgements:**  
-We thank all educators, linguists, and testers who contributed their expertise to shape this project into a helpful educational tool.
+These contributors created the foundation of the UX/UI experience used in the project.
+
+---
+
+## 💻 Original Code Authors
+
+The **intellectual authors of the original code** (design, structure, logic, and implementation) are:
+
+- **Rodrigo López Gómez**  
+- **Nahui Metztli Dado Delgadillo**  
+- **Ana Mariem Pérez Chacón**  
+- **Karla Avila Navarro**  
+- **Ana María Guzman Solís**
+
+Any use of code, derivative work, or adaptation must credit these authors.
 
 ---
 
 ## ⚙️ Technologies Used
 
-- **React** — for building the interactive interface  
-- **Vosk Speech Recognition** — for offline speech recognition  
-- **JavaScript / Node.js** — for the logic and backend operations  
-- **CSS3** — for responsive and accessible visual design  
-- **Vecteezy SVGs** — for icons and visual elements  
+- **React** — for the interactive user interface  
+- **Vosk Speech Recognition Toolkit** — for local/offline speech recognition  
+- **JavaScript / Node.js** — core logic and local backend  
+- **CSS3** — responsive and accessible interface styling  
+- **SVG assets from Vecteezy** — for visual icons and child-friendly illustrations  
 
 ---
 
 ## 🧠 Features
 
-- 🎯 Speech recognition and feedback system powered by **Vosk**
-- 🎮 Engaging visual interface for children
-- 🧩 Adaptive exercises for different pronunciation levels
-- 💡 Configurable interface brightness and text scaling
-- 🌈 100% open source under a **non-commercial license**
+- 🎯 Pronunciation and speech-feedback powered by Vosk  
+- 🎮 Engaging, child-oriented interface  
+- 🧩 Adjustable difficulty and visual modules  
+- 🔊 Configurable volume, brightness, and letter size  
+- 🌈 Fully non-commercial open-source project  
 
 ---
 
 ## 📜 License
 
-This project is licensed under the  
-**Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)** license.
+This project is protected by the  
+**Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International  
+(CC BY-NC-SA 4.0)** license.
 
-### You are free to:
-- **Share** — copy and redistribute the material in any medium or format.  
-- **Adapt** — remix, transform, and build upon the material.  
+You must:
 
-### Under the following terms:
-1. **Attribution** — You must give appropriate credit to all listed contributors and sources.  
-2. **NonCommercial** — You may not use this material for commercial purposes.  
-3. **ShareAlike** — If you remix or modify it, you must distribute your version under the same license.
+1. **Credit all listed contributors** (idea authors, mockup designers, and code authors)  
+2. **State if changes were made**  
+3. **Use the project for non-commercial purposes only**  
+4. **Distribute derivative works under the same license**
 
-📘 Full license text: [https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
-
----
-
-## 📎 External Resources and Attributions
-
-### SVG and Visual Assets
-- Some icons and illustrations sourced from [**Vecteezy**](https://www.vecteezy.com)  
-  License: Free for personal and commercial use with attribution  
-  **Attribution Required:** “SVG icons by Vecteezy.com”
-
-### Open Source Libraries
-- **React** — Licensed under the [MIT License](https://opensource.org/licenses/MIT)  
-  © Meta Platforms, Inc. and contributors  
-- **Vosk Speech Recognition Toolkit** — Licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)  
-  © Alpha Cephei Inc.
-
-Each dependency retains its original license and attribution requirements.
+🔗 Full license text: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 
 ---
 
-## ⚠️ Usage Notice
+## 📎 External Resource Attributions
 
-- Redistribution or resale **without written permission** from all listed contributors is **strictly prohibited**.  
-- Any derivative work must:
-  - Retain this README and license notice.
-  - Attribute all original authors.
-  - Clearly specify any modifications made.  
+### SVG Assets
+- Some icons and illustrations from **Vecteezy**  
+  *“SVG icons by Vecteezy.com”*
 
-If you use this project in academic, research, or non-commercial environments, please provide full attribution and a link back to the original repository.
+### Open-source Technologies
+- **React** — MIT License  
+- **Vosk** — Apache License 2.0  
+
+Each dependency maintains its own original license.
 
 ---
 
-## 🧩 Contact and Collaboration
+## ⚠️ Non-Commercial Use Notice
 
-If you wish to collaborate, adapt this project for non-commercial educational purposes, or request redistribution permissions, please contact:
+Redistribution or reuse of this project for **commercial** purposes is strictly prohibited.  
+All reuse must retain:
+
+- The list of contributors  
+- License notices  
+- Attribution to idea authors, mockup designers, and code authors  
+
+---
+
+## ✉️ Contact & Collaboration
+
+For academic, research, or educational collaboration of the original code:
 
 📧 **rodlopg@gmail.com**
 
 ---
 
-## 💬 Citation Example
+## 💖 Citation Example
 
-If you use this project in research, please cite it as:
+> Rodríguez Muñoz, A. J., Briseño Martínez, R. A., Fabian Valensia, H. C., Ortega Bravo, P.,  
+> García Torres, M., Jimenez Zepeda, C., Arreola Munguía, S., Velasco Gómez Llanos, D.,  
+> González Gómez, A., López Gómez, R., Dado Delgadillo, N. M., Pérez Chacón, A. M.,  
+> Avila Navarro, K., & Guzman Solís, A. M. (2025). *Speech Helper App for Kids*.  
+> Licensed under CC BY-NC-SA 4.0.
 
-> Fabian Valensia, H. C., Ortega Bravo, P., García Torres, M., Jimenez Zepeda, C., Arreola Munguía, S., Velasco Gómez Llanos, D., González Gómez, A., López Gómez, R., Dado Delgadillo, N. M., Pérez Chacón, A. M., Avila Navarro, K., & Guzman Solís, A. M. (2025). *Speech Helper App for Kids*. Licensed under CC BY-NC-SA 4.0.
-
----
-
-## 💖 Acknowledgements
-
-This project was made possible through collaboration, creativity, and a shared passion for helping children overcome speech barriers through technology and play.
->>>>>>> c696639784706da36ec2256ebb14144b99bb8707
